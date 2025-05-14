@@ -11,17 +11,17 @@ def main(page: ft.Page):
     
     def addTransaction(e):
         try:
-            amount = float(money_input.vslue_
+            amount = float(money_input.value_
             category_dropdown.value
             if not category;
                 status.value = "Please select a category."
         else:
-            transictions.append({"amount"; amount, "category"; category})
-            rseult.value = "Transactin added"
+            transactions.append({"amount"; amount, "category"; category})
+            result.value = "Transaction added"
             money_input.value = ""
             category_dropdown.value = None
         except ValueError:
-            result.value = "Enter a alid number"
+            result.value = "Enter a valid number"
         page.update()
                            
     def calcBalance(e):
